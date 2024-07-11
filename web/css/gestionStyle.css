@@ -1,0 +1,81 @@
+.agregarNuevo,
+.lista {
+    width: 80%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agregarNuevo h2,
+.lista h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.agregarNuevo form input[type="text"],
+.agregarNuevo form input[type="email"],
+.agregarNuevo form input[type="password"],
+.agregarNuevo form input[type="number"],
+.agregarNuevo form input[type="date"],
+.agregarNuevo form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.agregarNuevo form button {
+    padding: 10px 20px;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lista table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lista th,
+.lista td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.lista th {
+    background-color: #006400;
+    color: #fff;
+}
+
+.lista td:last-child {
+    text-align: center;
+}
+
+.lista td:last-child button {
+    padding: 5px 10px;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lista td:last-child button:hover {
+    background-color: #c82333;
+}
+
+@media screen and (max-width: 768px) {
+    .agregarNuevo,
+    .lista {
+        width: 100%;
+        padding: 10px;
+    }
+}

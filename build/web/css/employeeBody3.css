@@ -1,0 +1,114 @@
+/* employeeConfig */
+body {
+    background-image: url('../images/config/fondoConfig.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main-heading {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 30px;
+    -webkit-text-stroke: 1px white;
+}
+
+.main-heading h1 {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: arial;
+    
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    padding: 200px;
+    margin-bottom: 50px;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.accordion-collapse {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.accordion-header {
+    color: lightgreen;
+    padding: 30px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.accordion-button {
+    font-size: 1.2rem;
+}
+
+#confirmarCambioContrasena {
+    margin-bottom: 20px;
+}
+
+
+/* employeeReports */
+.reportes-banner {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+.text-light {
+    font-weight:700;
+}
+
+.ventas-section,
+.pedidos-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.ventas-section img,
+.pedidos-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.datos-estadisticos {
+    background-color: lightgoldenrodyellow;
+    padding: 60px 0;
+    align-items: center;
+}
+
+.datos-estadisticos .card {
+    background-color: #f9f9f9;
+    border: none;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.datos-estadisticos .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.datos-estadisticos .card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.datos-estadisticos .card-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #666;
+}

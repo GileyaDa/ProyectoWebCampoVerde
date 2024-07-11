@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* employeeDashboard*/
+.containerBienvenida {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+#textoTransformar {
+    background-color: darkorange;
+    padding: 30px;
+    margin-left: 0%;
+    color: #1E381F;
+    font-size: 40px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.btnB {
+    text-decoration: none;
+    color: green;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+}
+
+.botonB a:hover {
+    background-color: green;
+    color: white;
+}
+
+#videoPlayer {
+    max-width: 100%;
+}
+
+#imagenFondo {
+    background-image: url('../images/fondoInicio.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    border-top: 5px solid #ffd700;
+    border-bottom: 5px solid #ffd700;
+}
+
+/* employeeInformation*/
+.titulo-principal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.titulo {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, hsla(120, 100%, 25%, 0.4), hsla(120, 100%, 50%, 0.3)), url("../images/fondoInformacion.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.textos {
+    padding-top: 100px;
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos h1 {
+    font-size: 90px;
+    color: #fff;
+}
+
+.textos h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.imagen-1 {
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagen-2 {
+    width: 40%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: darkgreen;
+    color: #fff;
+    border-radius: 45%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.portafolio {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, hsla(120, 100%, 25%, 0.4), hsla(120, 100%, 50%, 0.3)), url("../images/fondoInformacion.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 0px;
+}
+
+.titulo2 {
+    color: rgb(2,21,57);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.titulo3 {
+    color: rgb(255, 249, 249);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(255, 140, 0, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria p {
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(1);
+}
+
+.clientescontenedor {
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(to right, hsla(120, 100%, 25%, 0.4), hsla(120, 100%, 50%, 0.3)), url("../images/fondoInformacion.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    background: #FACA0F;
+    display: flex;
+    width: 46%;
+    height: 270px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cards .card img {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card {
+    width: 80%;
+    color: black;
+}
+
+.cards .card > .contenido-texto-card p {
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    .section {
+        width: 100%;
+    }
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen-1, .contenido-textos {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .imagen-port {
+        width: 48%;
+    }
+
+    .cards .card {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .titulo-principal {
+        font-size: 40px;
+    }
+
+    .imagen-port {
+        width: 100%;
+    }
+    .contenedor-sobre-nosotros {
+        margin-top: 150px;
+    }
+}
